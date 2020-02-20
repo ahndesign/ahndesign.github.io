@@ -1,1 +1,9 @@
-theme: jekyll-theme-architect
+# Site settings
+title: Designer, Kate Ahn
+description: Kate's portfolio page
+keywords: Design
+author: joyoon
+baseurl: "" # the subpath of your site, e.g. /blog/
+url: "" # the base hostname & protocol for your site
+
+# Author
