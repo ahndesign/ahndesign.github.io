@@ -91,10 +91,10 @@ var demo = (function (window) {
             var rect = polygon.getBoundingClientRect();
 
             var point = {
-                x: rect.left + rect.width / 2,
-                y: rect.top + rect.height / 2
+                x: rect.left + rect.width / 16,
+                y: rect.top + rect.height / 16
             };
-
+            console.log('fixed point', point);
             polygonMap.points.push(point);
         });
 
@@ -230,10 +230,10 @@ var demo = (function (window) {
         var radius = track.width / 2;
 
         var center = {
-            x: track.x,
-            y: track.y
+            x: 0,
+            y: 0
         };
-
+        console.log('fixed center', center);
         polygonMap.points.forEach(function (point, i) {
 
             if (_detectPointInCircle(point, radius, center)) {
