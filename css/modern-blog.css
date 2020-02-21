@@ -216,6 +216,7 @@ body {
 	overflow: hidden;
 	overflow-y: scroll;
 	margin: auto;
+	max-width: 1200px;
 }
 
 body.body--hidden {

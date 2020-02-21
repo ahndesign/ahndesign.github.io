@@ -227,7 +227,7 @@ var demo = (function (window) {
     var _onCardMove = function (track) {
 
         // var radius = track.width / 2;
-        var radius = track.width * 2;  // set circle size
+        var radius = track.width * 1.5;  // set circle size
 
         var center = {
             // x: track.x,
