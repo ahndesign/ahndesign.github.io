@@ -52,8 +52,7 @@
 	height: auto;
 	margin: 400px auto 60px;
 	padding: 30px 40px 22px;
-	background: #fff;
-	opacity: 0.5;
+	background-color: rgba(255,255,255,0.5);
 }
 
 .card__container--closed .card__content {
@@ -61,6 +60,7 @@
 	padding: 0 16px;
 	pointer-events: none;
 	background: transparent;
+	opacity: 1;
 }
 
 .card__caption {
@@ -161,7 +161,6 @@
 		margin-bottom: 0;
 		padding-right: 20px;
 		padding-left: 20px;
-		opacity: 0.5;
 	}
 }
 
