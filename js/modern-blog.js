@@ -227,13 +227,14 @@ var demo = (function (window) {
      */
     var _onCardMove = function (track) {
 
-        var radius = track.width / 2;
+        // var radius = track.width / 2;
+        var radius = track.width * 3;
 
         var center = {
             x: track.x,
             y: track.y
         };
-        console.log('fixed center', center);
+        console.log('fixed11');
         
         polygonMap.points.forEach(function (point, i) {
 
