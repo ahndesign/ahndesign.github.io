@@ -94,7 +94,6 @@ var demo = (function (window) {
                 x: rect.left + rect.width *2,
                 y: rect.top + rect.height *2
             };
-            console.log('fixed point', point);
             polygonMap.points.push(point);
         });
 
