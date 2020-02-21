@@ -214,6 +214,7 @@ body {
 	-moz-osx-font-smoothing: grayscale;
 	overflow: hidden;
 	overflow-y: scroll;
+	width: 1200px;
 }
 
 body.body--hidden {
