@@ -43,6 +43,7 @@
 
 .card__container--fix-image .card__image {
 	position: fixed;
+	max-width: 1200px;
 }
 
 .card__content {
@@ -214,7 +215,7 @@ body {
 	-moz-osx-font-smoothing: grayscale;
 	overflow: hidden;
 	overflow-y: scroll;
-	width: 1200px;
+	margin: auto;
 }
 
 body.body--hidden {
