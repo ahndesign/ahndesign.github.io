@@ -91,8 +91,8 @@ var demo = (function (window) {
             var rect = polygon.getBoundingClientRect();
 
             var point = {
-                x: rect.left + rect.width *2,
-                y: rect.top + rect.height *2
+                x: rect.left + rect.width ,
+                y: rect.top + rect.height 
             };
             polygonMap.points.push(point);
         });
@@ -225,17 +225,16 @@ var demo = (function (window) {
      * @private
      */
     var _onCardMove = function (track) {
-
         // var radius = track.width / 2;
-        var radius = track.width * 1.5;  // set circle size
+        var radius = track.width * 0.52;  // set circle size
 
         var center = {
             // x: track.x,
             // y: track.y
-            x: window.innerWidth,
-            y: window.innerHeight
+            x: window.innerWidth * 0.54,
+            y: window.innerHeight * 0.5
         };
-        
+        console.log(track.width, center.x, center.y);
         polygonMap.points.forEach(function (point, i) {
 
             if (_detectPointInCircle(point, radius, center)) {
