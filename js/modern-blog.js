@@ -53,8 +53,10 @@ var demo = (function (window) {
             height: window.innerHeight,
             cell_size: 90,  // default 90
             variance: 1,
-            x_colors: 'random',
-            y_colors: 'random'
+            // x_colors: 'random',
+            // y_colors: 'random'
+            x_colors: ['#000000', '#CCCCCC', '#CCCCCC'],
+            y_colors: ['#000000', '#CCCCCC', '#CCCCCC'],
         }).svg(); // Render as SVG.
 
         _mapPolygons(pattern);
@@ -225,7 +227,8 @@ var demo = (function (window) {
      */
     var _onCardMove = function (track) {
         // var radius = track.width / 2;
-        var radius = track.width * 0.52;  // set circle size
+        // var radius = track.width * 0.52;  // set circle size
+        var radius = track.width * 2;
 
         var center = {
             // x: track.x,
